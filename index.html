@@ -11,6 +11,9 @@
     <script>
       var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Incremental_WebGL.json", {onProgress: UnityProgress});
     </script>
+    <script type='text/javascript'>
+      document.onmousedown = function() {window.focus();};
+    </script>
   </head>
   <body>
     <div class="webgl-content">
